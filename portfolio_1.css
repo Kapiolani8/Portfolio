@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: blue;
+}
+
+#wrapper{
+    background-color: red;
+    width: 1000px;
+    margin: auto;
+    height: 1200px;
+}
+
+#header{
+    background-color: rgb(190, 185, 185);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#header h1{
+    font-family: "Comic Sans MS";
+    display: inline;
+    margin: 10px;
+}
+
+#header h2{
+    font-family: sans-serif;
+    display: inline;
+    position: relative;
+    left: 400px;
+}
+
+#main_content{
+    display: inline-flex;
+}
+
+.photo{
+    width: 450px;
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    padding:5px;
+    vertical-align: top;
+}
+
+.about{
+    background-color: white;
+    width: 475px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+h3{
+    margin-top: -1px;
+    padding-left: 10px;
+    background-color: silver;
+    padding: 10px 0px 0px 10px;
+    font-size: 24px;
+    font-family: Arial;
+    color: white;
+}
+.about p{
+    margin: 10px;
+}
+
+.projectthumb{
+    width: 300px;
+}
+
+.summary{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+}
+
+.technologies{
+    width: 300px;
+    height: 150px;
+}
+
+.project{
+    float: left;
+    margin: 15px;
+}
+
+ul li{
+    display: inline-flex;
+}
+
+.images{
+    width: 35px;
+}
